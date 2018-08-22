@@ -1,0 +1,38 @@
+{
+  "name": "varmotsvi",
+  "version": "1.0.0",
+  "description": "Bra app",
+  "main": ".csp_ovftool_settings.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.9",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "css-loader": "^1.0.0",
+    "nodemon": "^1.18.3",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "scripts": {
+    "build": "webpack-dev-server",
+    "start": "node Routes.js"
+  },
+  "author": "Jonathan",
+  "license": "ISC",
+  "keywords": [
+    "SL"
+  ]
+}
